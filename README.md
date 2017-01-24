@@ -26,6 +26,12 @@ You need to create a [Twitter app](https://dev.twitter.com/apps) to use the API.
 	};
 
 	var Twitter = require('twitter-node-client').Twitter;
+	
+	//The config setup described below is for the updated package hosted on Github
+	//The npm package has not been updated in a while so this readme might not be valid 
+	//if you've downloaded the package from npm. If you have any problems setting the config, 
+	//follow the instructions on the package's download page on npm.
+	//(https://www.npmjs.com/package/twitter-node-client)
 
 	//Get this data from your twitter apps dashboard
 	{
